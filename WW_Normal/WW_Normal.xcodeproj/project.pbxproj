@@ -13,6 +13,7 @@
 		2112491D1E023A6B00F2E559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2112491B1E023A6B00F2E559 /* Main.storyboard */; };
 		2112491F1E023A6B00F2E559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2112491E1E023A6B00F2E559 /* Assets.xcassets */; };
 		211249221E023A6B00F2E559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211249201E023A6B00F2E559 /* LaunchScreen.storyboard */; };
+		2112492B1E02D92100F2E559 /* DownloadImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2112492A1E02D92100F2E559 /* DownloadImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2112491E1E023A6B00F2E559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		211249211E023A6B00F2E559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		211249231E023A6B00F2E559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		211249291E02D92100F2E559 /* DownloadImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadImageViewController.h; sourceTree = "<group>"; };
+		2112492A1E02D92100F2E559 /* DownloadImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				211249161E023A6B00F2E559 /* AppDelegate.m */,
 				211249181E023A6B00F2E559 /* ViewController.h */,
 				211249191E023A6B00F2E559 /* ViewController.m */,
+				211249291E02D92100F2E559 /* DownloadImageViewController.h */,
+				2112492A1E02D92100F2E559 /* DownloadImageViewController.m */,
 				2112491B1E023A6B00F2E559 /* Main.storyboard */,
 				2112491E1E023A6B00F2E559 /* Assets.xcassets */,
 				211249201E023A6B00F2E559 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			files = (
 				2112491A1E023A6B00F2E559 /* ViewController.m in Sources */,
 				211249171E023A6B00F2E559 /* AppDelegate.m in Sources */,
+				2112492B1E02D92100F2E559 /* DownloadImageViewController.m in Sources */,
 				211249141E023A6B00F2E559 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +313,7 @@
 				211249281E023A6B00F2E559 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
