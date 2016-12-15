@@ -26,6 +26,14 @@
                                     <action selector="pthreadCreateThreadBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="34n-06-o1P"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QGK-6k-OHS">
+                                <frame key="frameInset" minX="152" minY="45" width="207" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="NSThread创建线程的三种方式"/>
+                                <connections>
+                                    <action selector="NSThreadBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kdh-Pg-HcW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
