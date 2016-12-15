@@ -2,3 +2,4 @@
 Review some basic content about iOS
 - pthread创建线程的简单演示
 - NSThread创建线程的三种方式
+- 异步下载网络图片
